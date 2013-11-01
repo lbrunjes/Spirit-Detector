@@ -1,0 +1,61 @@
+*{
+margin:0;
+padding:0;
+display:block;
+}
+body{
+background: #222;
+color:#eee;
+font: 16pt  sans-serif;
+text-align:center;
+}
+
+head, script,.hide{
+display:none!important;
+}
+header,footer{
+text-align:center;
+clear:both;
+}
+
+
+canvas,video{
+background:transparent;
+position:absolute;
+   
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+@font-face {
+    font-family: 'silkscreen';
+    src: url('font/slkscr.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container{
+width:640px;
+margin:1ex auto;
+}
+
+#gameContainer{
+	border:2px solid #006600;
+	height:640px;
+}
+#scrollybit{
+ background: url('logo.png') center no-repeat;
+ width:640px;
+ height:1400px;
+ padding-top:480px;
+ overflow:hidden;
+}
+#scrollybit div{
+	color: rgba(128,255,128,.5);
+	text-align:right;
+	width:640px;
+	overflow:hidden;
+	font-size:10pt;
+}
